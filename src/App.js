@@ -23,7 +23,7 @@ function App() {
 
     return (
         <div className="App">
-            <h1>Wordle</h1>
+            <h1>React Wordle</h1>
             <Wordle solution={solution} words={words} />
             <Footer />
         </div>

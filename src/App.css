@@ -27,10 +27,11 @@ body {
 }
 
 h1 {
-    font-weight: 400;
+    font-weight: 700;
     padding: 10px;
     text-align: center;
     border-bottom: 1px solid #eee;
+    text-transform: uppercase;
 }
 
 .main {
@@ -394,8 +395,10 @@ footer .credits a {
 /* mobile screen sizes */
 @media screen and (max-width: 480px) {
     h1 {
-        font-size: 16px;
+        font-size: 18px;
         text-align: left;
+        font-weight: 800;
+        text-transform: uppercase;
     }
     .moves {
         font-size: 14px;
