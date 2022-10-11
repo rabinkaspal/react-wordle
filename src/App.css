@@ -299,6 +299,51 @@ h1 {
     cursor: pointer;
 }
 
+footer {
+    width: 100%;
+    margin-top: 40px;
+}
+
+footer .credits {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+footer .credits p {
+    padding: 8px 0;
+}
+
+footer .credits .github {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+    transition: all 500ms;
+}
+footer .credits .github:hover {
+    background-color: #e1e1e1;
+    color: rgb(87, 87, 87);
+    border-radius: 4px;
+}
+
+footer .credits .github svg {
+    margin-right: 5px;
+}
+footer .credits a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    max-width: min(calc(100% - 80px), 600px);
+    margin: 0 auto;
+}
+
 @keyframes flip {
     0% {
         transform: rotateX(0);

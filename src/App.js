@@ -3,6 +3,7 @@ import Wordle from "./components/Wordle";
 import "./App.css";
 // import words from "./data/wordDb";
 import dictionary from "./data/dictionary";
+import Footer from "./components/Footer";
 
 function App() {
     const [solution, setSolution] = useState();
@@ -24,6 +25,7 @@ function App() {
         <div className="App">
             <h1>Wordle</h1>
             <Wordle solution={solution} words={words} />
+            <Footer />
         </div>
     );
 }
