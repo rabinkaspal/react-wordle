@@ -1,0 +1,27 @@
+const words = [
+    "acorn",
+    "acrid",
+    "synod",
+    "syrup",
+    "tache",
+    "maybe",
+    "mealy",
+    "twink",
+    "ultra",
+    "adult",
+    "agent",
+    "agony",
+    "quite",
+    "quota",
+    "rabid",
+    "radix",
+    "aisle",
+    "vogue",
+    "wader",
+    "alike",
+    "alive",
+    "alone",
+    "aloud",
+];
+
+export default words;
