@@ -1,3 +1,9 @@
+## Screenshots
+
+![Desktop Screenshot](/react-wordle-images/desktop.png)
+
+![Mobile Screenshot](/react-wordle-images/mobile.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
